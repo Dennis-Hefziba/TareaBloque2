@@ -179,6 +179,8 @@ Public Class LongitudFormulario
             MessageBox.Show("Ingrese un dato numerico")
         End If
 
+
+
     End Sub
 
 

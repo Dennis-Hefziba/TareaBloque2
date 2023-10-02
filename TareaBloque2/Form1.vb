@@ -12,4 +12,14 @@
         Dim formularioMasa As New MasaFormulario()
         formularioMasa.Show()
     End Sub
+
+    Private Sub almacePic_Click(sender As Object, e As EventArgs) Handles almacePic.Click
+        Dim formularioAlmacenamiento As New almacenamientoFormulario()
+        formularioAlmacenamiento.Show()
+    End Sub
+
+    Private Sub tiempoPic_Click(sender As Object, e As EventArgs) Handles tiempoPic.Click
+        Dim formularioTemp As New tiempoFormulario()
+        formularioTemp.Show()
+    End Sub
 End Class
